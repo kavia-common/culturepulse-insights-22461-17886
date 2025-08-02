@@ -1,0 +1,41 @@
+.dashboard-header-gradient {
+  background: linear-gradient(90deg, #d8b4fe 5%, #7c3aed 95%);
+  color: #fff;
+  padding: 2.2rem 2rem 1.2rem 2rem;
+  border-radius: 0 0 32px 32px;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.subtitle {
+  font-size: 1.2em;
+  color: #f4e6fa;
+}
+.dashboard-content-row {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0 2rem;
+}
+.heatmap-section {
+  flex: 3;
+  background: #faf4ff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px #e5e5f7aa;
+  padding: 1.5rem;
+}
+.feed-section {
+  flex: 2;
+  background: #f8f7fd;
+  border-radius: 18px;
+  box-shadow: 0 1px 9px #e5e5f7aa;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+@media (max-width: 786px) {
+  .dashboard-content-row {
+    flex-direction: column;
+    margin: 0;
+    gap: 1rem;
+  }
+}

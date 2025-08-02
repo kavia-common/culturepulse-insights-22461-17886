@@ -1,0 +1,8 @@
+.mood-heatmap {
+  margin: 0 auto 1rem auto;
+  max-width: 410px;
+  background: linear-gradient(120deg, #fff 80%, #f4e7fd 100%);
+  border-radius: 24px;
+  padding: 1.2rem 0.6rem;
+  box-shadow: 0 1px 8px #f4eedd55;
+}

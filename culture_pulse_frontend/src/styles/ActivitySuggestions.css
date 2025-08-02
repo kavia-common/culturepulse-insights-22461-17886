@@ -1,0 +1,16 @@
+.activity-suggestions {
+  margin-top: 1rem;
+}
+.activity-suggestions ul {
+  list-style: none;
+  padding: 0;
+}
+.suggestion-card {
+  background: linear-gradient(90deg, #f8fafc 10%, #d8b4fe 95%);
+  color: #7445ab;
+  border-radius: 12px;
+  padding: 0.7em 1em;
+  margin-bottom: 0.6em;
+  box-shadow: 0 1px 7px #e6cff955;
+  font-weight: 500;
+}

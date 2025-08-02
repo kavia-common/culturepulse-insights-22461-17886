@@ -1,0 +1,33 @@
+.daily-feed {
+  margin-bottom: 1.5rem;
+}
+.daily-feed ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.feed-row {
+  display: flex;
+  gap: 0.8em;
+  align-items: center;
+  font-size: 1em;
+  color: #7c3aed;
+}
+.feed-user {
+  font-weight: 500;
+  color: #7c3aed;
+}
+.feed-date {
+  font-size: 0.88em;
+  color: #b983f6;
+  margin-left: auto;
+}
+.feed-note {
+  margin-left: 2em;
+  margin-bottom: 0.7em;
+  color: #9b44da;
+  font-size: 0.98em;
+  background: #f8eafc;
+  border-radius: 6px;
+  padding: 0.3em 0.6em;
+}
